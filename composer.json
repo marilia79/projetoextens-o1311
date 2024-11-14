@@ -1,0 +1,14 @@
+{
+    "name": "miguel/freelas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Freelas\\Model\\": "model/",            
+            "Freelas\\Lib\\": "lib/",       
+            "Freelas\\Controller\\": "controller/"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^5.4"
+    }
+}
